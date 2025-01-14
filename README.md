@@ -45,7 +45,7 @@ To set up the project on your local machine, follow these steps:
 
    ```bash
    git clone https://github.com/javohuz/smart_house.git
-   cd smart-house-project
+   cd smart-house
 
 
 ## Backend Setup
@@ -56,29 +56,36 @@ To set up the project on your local machine, follow these steps:
    cd backend
 Create a Python virtual environment to manage dependencies:
 
-  ```bash
-  python3 -m venv venv
+2. Create a Python virtual environment to manage dependencies:
 
-Activate the virtual environment:
+   ```bash
+   python3 -m venv venv
+
+3. Activate the virtual environment:
+
 
 For Linux/MacOS:
-
     ```bash
     source venv/bin/activate
+    
 For Windows:
-
-      ```bash
+    ```bash
     venv\Scripts\activate
-Install the required Python libraries listed in requirements.txt:
-      ```bash
-    pip install -r requirements.txt
-Apply database migrations to prepare the database:
 
-      ```bash
-    python manage.py migrate
-Start the Django development server:
+4. nstall the required Python libraries listed in requirements.txt
 
-      ```bash
-    python manage.py runserver
+   ```bash
+   pip install -r requirements.txt
+
+5. Apply database migrations to prepare the database:
+
+   ```bash
+   python manage.py migrate
+
+6. Start the Django development server:
+
+   ```bash
+   python manage.py runserver
+
 
 The server will be accessible at http://127.0.0.1:8000.

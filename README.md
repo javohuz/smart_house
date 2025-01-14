@@ -56,35 +56,29 @@ To set up the project on your local machine, follow these steps:
    cd backend
 Create a Python virtual environment to manage dependencies:
 
-bash
-Copy code
-python3 -m venv venv
+  ```bash
+  python3 -m venv venv
+
 Activate the virtual environment:
 
 For Linux/MacOS:
 
-bash
-Copy code
-source venv/bin/activate
+    ```bash
+    source venv/bin/activate
 For Windows:
 
-bash
-Copy code
-venv\Scripts\activate
+      ```bash
+    venv\Scripts\activate
 Install the required Python libraries listed in requirements.txt:
-
-bash
-Copy code
-pip install -r requirements.txt
+      ```bash
+    pip install -r requirements.txt
 Apply database migrations to prepare the database:
 
-bash
-Copy code
-python manage.py migrate
+      ```bash
+    python manage.py migrate
 Start the Django development server:
 
-bash
-Copy code
-python manage.py runserver
+      ```bash
+    python manage.py runserver
 
 The server will be accessible at http://127.0.0.1:8000.

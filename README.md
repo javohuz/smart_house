@@ -62,7 +62,7 @@ Create a Python virtual environment to manage dependencies:
    python3 -m venv venv
 
 
-Activate the virtual environment:
+3 Activate the virtual environment:
 
 1. For Linux/MacOS:
 
@@ -74,7 +74,9 @@ Activate the virtual environment:
     ```bash
     venv\Scripts\activate
 
-4. nstall the required Python libraries listed in requirements.txt
+Installition
+
+4. install the required Python libraries listed in requirements.txt
 
    ```bash
    pip install -r requirements.txt

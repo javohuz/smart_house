@@ -15,7 +15,7 @@ This is a smart home project with a web application interface (frontend and back
 
 ## Project Structure
 
-```plaintext
+plaintext
 smart-home-project/
 ├── frontend/
 │   ├── index.html

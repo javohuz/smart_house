@@ -13,27 +13,6 @@ This is a smart home project with a web application interface (frontend and back
 
 ---
 
-## Project Structure
-
-plaintext
-smart-home-project/
-├── frontend/
-│   ├── index.html
-│   ├── styles.css
-│   ├── script.js
-├── backend/
-│   ├── manage.py
-│   ├── config/
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   ├── wsgi.py
-│   ├── requirements.txt
-│   ├── venv/
-├── arduino/
-│   ├── main.ino
-├── README.md
-
-
 # How to Clone and Run the Smart Home Project
 
 ## Clone the Repository

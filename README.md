@@ -1,7 +1,7 @@
 # Smart Home Project
 
 This is a smart home project with a web application interface (frontend and backend) and an Arduino system integration. The backend is powered by Django, while the frontend is built using HTML, CSS, and JavaScript.
-
+(https://docs.google.com/document/d/1lkSd4Ow1svgTrApJbt5C1qCYGUv-Co-kJ7VVUNWsogk/edit?usp=sharing )
 
 
 # How to Clone and Run the Smart Home Project
